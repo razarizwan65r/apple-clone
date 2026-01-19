@@ -200,7 +200,7 @@ ul {
 .left4 {
     /* background-color: #0076DF; */
     flex: 1;
-    background-image: url(Hero\ 4.jpg);
+    background-image: url(hero\ 4.jpg);
     background-position: center;
     flex-direction: column;
     text-align: center;
