@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    cursor: pointer;
+}
+
+body {
+    background: #f5f5f7;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 15px;
+    z-index: 9999;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(10px);
+    border: none;
+}
+
+.nav {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.apple-icon {
+    font-size: 17px;
+}
+
+.glass-icon {
+    font-size: 17px;
+    font-weight: 400;
+    color: #151514
+}
+
+.bag-icon {
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.icon1 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon2 {
+    display: none;
+}
+
+.icon3 {
+    display: none;
+}
+
+.section1 {
+    background-color: #F5F5F7;
+    color: black;
+    width: 100%;
+    height: 600px;
+    background-image: url(Hero\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.headline1 {
+    font-size: 56px;
+}
+
+.headline2 {
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 6px;
+}
+
+#first {
+    background-color: #0076DF;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+#Sec {
+    background-color: white;
+    color: #0076DF;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: #0076DF;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+#Sec:hover {
+    background-color: #0076DF;
+    color: white;
+    border: none;
+}
+
+.section2 {
+    background-color: #F5F5F7;
+    color: black;
+    width: 100%;
+    height: 600px;
+    background-image: url(Hero\ 2.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.one {
+    background-color: #0076DF;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    margin-right: 20px;
+}
+
+.two {
+    background-color: white;
+    color: #0076DF;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    width: 130px;
+    height: 50px;
+    border-radius: 30px;
+    border-color: #0076DF;
+}
+
+.two:hover {
+    background-color: #0076DF;
+    color: white;
+    border: none;
+}
+
+.section3 {
+    background-color: #F5F5F7;
+    color: black;
+    width: 100%;
+    height: 600px;
+    background-image: url(Hero\ 3.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 30px;
+    margin-bottom: 15px;
+    background-repeat: no-repeat;
+}
+
+.watch-text {
+    margin-bottom: 20px;
+}
+
+.section4 {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.left4 {
+    background-color: #0076DF;
+    flex: 1;
+    background-image: url(Hero\ 4.jpg);
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+.right4 {
+    background-color: aqua;
+    flex: 1;
+    background-image: url(Hero\ 5.jpg);
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section5 {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.left5 {
+    background-color: aqua;
+    flex: 1;
+    background-image: url(Hero\ 6.jpg);
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.right5 {
+    background-color: aqua;
+    flex: 1;
+    background-image: url(Hero\ 7.jpg);
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.section6 {
+    width: 100%;
+    height: 580px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.left6 {
+    background-color: aqua;
+    flex: 1;
+    background-image: url(Hero\ 8.jpg);
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.right6 {
+    background-color: aqua;
+    flex: 1;
+    background-image: url(Hero\ 9.jpg);
+    background-position: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer {
+    background-color: #111;
+    color: #ccc;
+    padding: 40px 60px 20px;
+}
+
+.apple-disclaimer {
+    background-color: #111;
+    color: #a1a1a6;
+    font-size: 12px;
+    line-height: 1.6;
+    padding: 30px 20px;
+}
+
+.apple-disclaimer-inner {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+
+.apple-disclaimer p {
+    margin-bottom: 10px;
+}
+
+.apple-disclaimer a {
+    color: #6ea8ff;
+    text-decoration: none;
+}
+
+.apple-disclaimer a:hover {
+    text-decoration: underline;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 30px;
+}
+
+.footer-column h4 {
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+
+.footer-column a {
+    display: block;
+    color: #bbb;
+    font-size: 13px;
+    text-decoration: none;
+    margin-bottom: 8px;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+
+.mt {
+    margin-top: 20px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #333;
+    margin-top: 30px;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+.footer-bottom span {
+    color: #2997ff;
+    cursor: pointer;
+}
+
+.footer-bottom span:hover {
+    text-decoration: underline;
+}
+
+.copyright {
+    margin-top: 10px;
+    color: #888;
+}
+
+@media (max-width:767px) {
+    ul {
+        width: 100%;
+    }
+
+    .icon1 {
+        display: none;
+    }
+
+    .icon2 {
+        margin-left: 10px;
+        display: block;
+        margin-right: auto;
+    }
+
+    .icon3 {
+        display: block;
+    }
+
+    .icon {
+        display: flex;
+        gap: 25px;
+    }
+    .sec1-button{
+       display: flex;
+    }
+
+    .section1 {
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        text-align: center;
+        padding: 50px;
+        margin-bottom: 0;
+    }
+
+    .section2 {
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .section3 {
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .section4 {
+        flex-direction: column;
+        gap: 10px;
+        height: 170vh;
+    }
+
+    .left4 {
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .right4 {
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .section5 {
+        flex-direction: column;
+        gap: 10px;
+        height:170vh;
+    }
+
+    .left5 {
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .right5 {
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .section6 {
+        flex-direction: column;
+        gap: 10px;
+        height: 170vh;
+    }
+
+    .right6 {
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+     
+    .left6{
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .footer {
+        padding: 20px;
+    }
+} 
